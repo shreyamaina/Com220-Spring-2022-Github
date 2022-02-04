@@ -9,17 +9,17 @@
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp" tools:srcCompat="@drawable/logo" android:id="@+id/imageView"
-            android:layout_weight="1" app:srcCompat="@drawable/logo"/>
+            android:layout_weight="1" app:srcCompat="@drawable/logo" android:contentDescription="@string/scwa_logo"/>
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
         <TextView
-                android:layout_width="292dp"
-                android:layout_height="108dp"
-                android:background="#4CAF50"
+                android:layout_width="317dp"
+                android:layout_height="150dp"
+                android:background="#15C11C"
                 android:text="@string/hello_world"
-                android:textColor="#000000"
+                android:textColor="#050505"
                 android:textSize="24sp"
                 android:gravity="center"
                 android:layout_gravity="center"/>
